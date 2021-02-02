@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 35%;
+    border: 3px solid #714233;
+    border-radius: 59px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav {
+    width: 20%;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7)url('../img/Real.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flexs;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+}
